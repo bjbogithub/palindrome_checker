@@ -7,7 +7,7 @@
     <body>
         <h1>Palindrome Checker (freeCodeCamp project for JavaScript)</h1>
         <h3>Description</h3>
-        <p>
+        <p> <!-- Add an anchor/link to wikipedia in the description-->
             Input a <strong><a href="https://en.wikipedia.org/wiki/Palindrome">palindrome</a></strong> into the input field and press submit. The JavaScript code that I have 
              made will calculate if the word or sentence is a palindrome. 
              You can also include symbols, numbers, small and big letters, everything!
@@ -15,10 +15,11 @@
         <form>
             <label for="Input">Input</label>
             <input type="text" id="input"> 
+            <!-- Adding the submit putton that activate the palindrome javascript function when clicked -->
             <input type="submit" value="Submit" onclick="palindrome(); return false;"/>
         </form>
         <p id="output"></p>
-        <!-- Here comes the external javascript code -->
+        <!-- Here comes the external javascript import -->
         <script src="palindrome_checker.js"></script>
     </body>
 </html>
